@@ -36,6 +36,10 @@ There is not much to do, install the gem then run Rake -T to find the
 shiny new rake command.
 To run, simply type ```rake db:reseed```
 
+## Testing
+
+To test the gem, run ```bundle exec rake spec/```
+
 ## Contributing
 
 1. Fork it ( https://github.com/pixelstack/reseed/fork )
