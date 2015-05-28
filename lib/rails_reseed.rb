@@ -1,7 +1,7 @@
-require "reseed/version"
+require "rails_reseed/version"
 require 'rails'
 
-module Reseed
+module RailsReseed
   class ReseedTasks
     include Rake::DSL if defined? Rake::DSL
 
@@ -15,4 +15,4 @@ module Reseed
     end
   end
 end
-Reseed::ReseedTasks.new.install_tasks
+RailsReseed::ReseedTasks.new.install_tasks

@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'reseed/version'
+require 'rails_reseed/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "reseed"
-  spec.version       = Reseed::VERSION
+  spec.name          = "rails_reseed"
+  spec.version       = RailsReseed::VERSION
   spec.authors       = ["Jaymie Jones"]
   spec.email         = ["jaymiejones86@gmail.com"]
   spec.summary       = %q{Implements a simple rails reseed rake task}

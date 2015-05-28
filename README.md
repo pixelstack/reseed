@@ -1,4 +1,4 @@
-# Reseed
+# Rails Reseed
 
 When working on a rails app in development you may want to start fresh
 with the database, which is where this gem comes in.
@@ -19,7 +19,7 @@ Inspired by Nithin Bekal's article at
 Add this line to your application's Gemfile in the development group:
 
 ```ruby
-gem 'reseed'
+gem 'rails_reseed'
 ```
 
 And then execute:
@@ -28,7 +28,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install reseed
+    $ gem install rails_reseed
 
 ## Usage
 
