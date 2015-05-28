@@ -1,5 +1,5 @@
 require "rails_reseed/version"
-require 'rails'
+require 'rake'
 
 module RailsReseed
   class ReseedTasks
@@ -15,4 +15,5 @@ module RailsReseed
     end
   end
 end
+
 RailsReseed::ReseedTasks.new.install_tasks
