@@ -8,7 +8,7 @@ RSpec.describe "db:reseed", type: :rake do
     expect(task_name).to eq(subject.name)
   end
 
-  it "executes its dependant rake tasks" do
+  it "executes its prerequisites rake tasks" do
     expect(subject.prerequisites).to eq(["db:drop", "db:create", "db:migrate", "db:seed"])
   end
 end
