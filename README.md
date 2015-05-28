@@ -1,6 +1,6 @@
 # Rails Reseed
 
-[![Code Climate](https://codeclimate.com/github/pixelstack/reseed/badges/gpa.svg)](https://codeclimate.com/github/pixelstack/reseed) [![Code Climate](https://codeclimate.com/github/pixelstack/reseed/badges/gpa.svg)](https://codeclimate.com/github/pixelstack/reseed)
+[![Code Climate](https://codeclimate.com/github/pixelstack/reseed/badges/gpa.svg)](https://codeclimate.com/github/pixelstack/reseed) [![Test Coverage](https://codeclimate.com/github/pixelstack/reseed/badges/coverage.svg)](https://codeclimate.com/github/pixelstack/reseed/coverage)
 
 When working on a rails app in development you may want to start fresh
 with the database, which is where this gem comes in.
