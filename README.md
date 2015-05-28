@@ -1,5 +1,7 @@
 # Rails Reseed
 
+[![Code Climate](https://codeclimate.com/github/pixelstack/reseed/badges/gpa.svg)](https://codeclimate.com/github/pixelstack/reseed) [![Code Climate](https://codeclimate.com/github/pixelstack/reseed/badges/gpa.svg)](https://codeclimate.com/github/pixelstack/reseed)
+
 When working on a rails app in development you may want to start fresh
 with the database, which is where this gem comes in.
 As long as you have a seeds file with some initial data, this gem will
