@@ -15,6 +15,6 @@ RSpec.describe 'db:reseed', type: :rake do
   end
   
   it 'outputs a message to indicate successful completion' do
-    expect { subject.execute }.to output("Reseeding completed.\n").to_stdout
+    expect { subject.execute }.to output('Reseeding completed.\n').to_stdout
   end
 end
